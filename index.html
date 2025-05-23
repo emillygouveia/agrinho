@@ -14,27 +14,24 @@
       <a href="#sobre">Sobre</a>
       <a href="#contato">Contato</a>
     </nav>
+    <div class="carrinho">
+      <button id="carrinho-btn" onclick="mostrarCarrinho()">Carrinho (<span id="contador-carrinho">0</span>)</button>
+    </div>
   </header>
 
-  <section id="hero">
-    <h2>O melhor mel natural direto do apicultor</h2>
-    <p>100% puro, artesanal e saudável.</p>
-    <a href="#produtos" class="btn">Comprar Agora</a>
-  </section>
-
   <section id="produtos">
-    <h2>Nossos Produtos</h2>
+    <h2>Produtos</h2>
     <div class="produto">
-      <img src="https://via.placeholder.com/200" alt="Pote de mel">
+      <img src="https://via.placeholder.com/250x250/ffb845/ffffff?text=Mel+Silvestre+500g" alt="Mel Silvestre 500g">
       <h3>Mel Silvestre 500g</h3>
       <p>R$ 25,00</p>
-      <button onclick="comprar('Mel Silvestre 500g')">Comprar</button>
+      <button onclick="adicionarCarrinho('Mel Silvestre 500g', 25.00)">Comprar</button>
     </div>
     <div class="produto">
-      <img src="https://via.placeholder.com/200" alt="Pote de mel">
+      <img src="https://via.placeholder.com/250x250/ffb845/ffffff?text=Mel+com+Pr%C3%B3polis+250g" alt="Mel com Própolis 250g">
       <h3>Mel com Própolis 250g</h3>
       <p>R$ 18,00</p>
-      <button onclick="comprar('Mel com Própolis 250g')">Comprar</button>
+      <button onclick="adicionarCarrinho('Mel com Própolis 250g', 18.00)">Comprar</button>
     </div>
   </section>
 
