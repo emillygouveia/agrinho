@@ -1,55 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mel Puro da Serra</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Harmonia entre o Campo e a Cidade</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Mel Puro da Serra</h1>
-    <nav>
-      <a href="#produtos">Produtos</a>
-      <a href="#sobre">Sobre</a>
-      <a href="#contato">Contato</a>
-    </nav>
-    <div class="carrinho">
-      <button id="carrinho-btn" onclick="mostrarCarrinho()">Carrinho (<span id="contador-carrinho">0</span>)</button>
-    </div>
-  </header>
+    <header>
+        <h1>A Harmonia entre o Campo e a Cidade</h1>
+        <p>Uma celebração das diferenças e convergências entre dois mundos distintos, mas complementares.</p>
+    </header>
 
-  <section id="produtos">
-    <h2>Produtos</h2>
-    <div class="produto">
-      <img src="https://via.placeholder.com/250x250/ffb845/ffffff?text=Mel+Silvestre+500g" alt="Mel Silvestre 500g">
-      <h3>Mel Silvestre 500g</h3>
-      <p>R$ 25,00</p>
-      <button onclick="adicionarCarrinho('Mel Silvestre 500g', 25.00)">Comprar</button>
-    </div>
-    <div class="produto">
-      <img src="https://via.placeholder.com/250x250/ffb845/ffffff?text=Mel+com+Pr%C3%B3polis+250g" alt="Mel com Própolis 250g">
-      <h3>Mel com Própolis 250g</h3>
-      <p>R$ 18,00</p>
-      <button onclick="adicionarCarrinho('Mel com Própolis 250g', 18.00)">Comprar</button>
-    </div>
-  </section>
+    <main>
+        <!-- Seção sobre o Campo -->
+        <section class="secao">
+            <h2>O Campo: Tradição e Serenidade</h2>
+            <img src="" alt="Paisagem do Campo">
+            <p>O campo é onde a simplicidade e a tranquilidade prevalecem. Suas festas tradicionais, paisagens serenas e o contato direto com a natureza são fontes de inspiração e equilíbrio. A vida no campo nos ensina a valorizar o presente e a desfrutar das pequenas coisas.</p>
+        </section>
 
-  <section id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>Somos uma pequena produção familiar dedicada à apicultura sustentável nas serras do sul do Brasil.</p>
-  </section>
+        <!-- Seção sobre a Cidade -->
+        <section class="secao">
+            <h2>A Cidade: Energia e Inovação</h2>
+            <img src="images/cidade.jpg" alt="Paisagem da Cidade">
+            <p>A cidade é um centro de agitação e criatividade. Seus avanços tecnológicos, eventos culturais e diversidade de pessoas criam uma energia única, onde cada esquina é um novo encontro. A cidade nos impulsiona a sonhar mais alto e a buscar novos horizontes, sem perder a conexão com o futuro.</p>
+        </section>
 
-  <section id="contato">
-    <h2>Fale Conosco</h2>
-    <p>Email: contato@melpurodaserra.com.br</p>
-    <p>WhatsApp: (99) 99999-9999</p>
-  </section>
+        <!-- Convergência dos Dois Mundos -->
+        <section class="secao">
+            <h2>O Encontro dos Dois Mundos</h2>
+            <p>Embora diferentes, o campo e a cidade podem se complementar de maneiras extraordinárias. A tranquilidade do campo pode proporcionar um descanso vital à agitação urbana, enquanto a cidade oferece aos campos novas oportunidades de crescimento e inovação. Juntos, eles criam um equilíbrio perfeito para uma vida rica e plena.</p>
+        </section>
+    </main>
 
-  <footer>
-    <p>&copy; 2025 Mel Puro da Serra</p>
-  </footer>
-
-  <script src="script.js"></script>
+    <footer>
+        <p>Projeto desenvolvido para explorar e celebrar a harmonia entre o campo e a cidade, dois mundos que, ao se encontrarem, podem criar algo muito mais especial.</p>
+    </footer>
 </body>
 </html>
